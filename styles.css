@@ -1,17 +1,39 @@
-.container {
+* {
+    border-collapse: collapse;
+}
+
+body {
     display: flex;
-    width: 360px;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    gap: 10px;
+}
+
+.user-input{
+
+}
+
+.canvas {
+    display: flex;
+    width: 900px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     margin: auto;
+    border: 1px solid gray;
+
+}
+
+.canvas div {
+    width: 50.25px;
+    height: 50.25px;
+    border: 1px solid gray;
+    text-align: center;
+    align-content: center;
+    padding: 2px;
     
 }
 
-.container div {
-    width:20px;
-    height: 20px;
-    margin: auto;
-    border: 1px solid red;
-    text-align: center;
+.canvas div:hover{
+    background-color: aqua;
 }
