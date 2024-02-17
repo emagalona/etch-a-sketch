@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
         for(let j=1; j<=16; j++){
             const content = document.createElement('div');
             content.setAttribute('id', `${i}${j}`);
-            content.textContent = ``;
+            content.textContent = `${j}`;
             container.appendChild(content);
         }
     }

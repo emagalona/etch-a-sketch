@@ -1,21 +1,43 @@
-* {
-    border-collapse: collapse;
-}
-
 body {
+    font-family: sans-serif;
+}
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    border: 1px solid black;
+    width: 40%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid #008cba;
 }
 
 .user-input{
 
 }
 
+.change-pixel {
+    border:none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #008cba;
+}
+
+.pixel-value {
+    height: 36px;
+    font-size: 16px;
+}
+
 .canvas {
     display: flex;
-    width: 900px;
+    width: 500px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -25,12 +47,14 @@ body {
 }
 
 .canvas div {
-    width: 50.25px;
-    height: 50.25px;
+    width: 35;
+    height: 35px;
     border: 1px solid gray;
     text-align: center;
     align-content: center;
-    padding: 2px;
+    padding: 5px;
+    transition-duration: 0.2s ;
+    box-sizing: border-box;
     
 }
 
