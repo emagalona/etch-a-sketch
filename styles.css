@@ -38,6 +38,7 @@ body {
 .canvas {
     display: flex;
     width: 500px;
+    height: 500px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -47,15 +48,13 @@ body {
 }
 
 .canvas div {
-    width: 35;
-    height: 35px;
+    
     border: 1px solid gray;
     text-align: center;
-    align-content: center;
-    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition-duration: 0.2s ;
-    box-sizing: border-box;
-    
 }
 
 .canvas div:hover{
