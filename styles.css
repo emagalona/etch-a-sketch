@@ -54,9 +54,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition-duration: 0.2s ;
+    
 }
 
-.canvas div:hover{
-    background-color: aqua;
-}
+
+
